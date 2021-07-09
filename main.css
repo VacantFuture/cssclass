@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway',
+    sans-serif;
+    color: #000;
+    margin: 0;
+    
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.content {
+    width: fit-content;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+#product-overview {
+    color: rgba(255, 255, 255, 1);
+    background-image: url(./images/alexander-sinn.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+        /* background-color: red; */
+    max-width: 100%;
+    height: 528px;
+    padding: 2em 0 0 2em;
+
+}
+
+h1.highlight {
+    background-color: red;
+    padding: 1em;
+    width: fit-content;
+}
+section p {
+    padding-left: 1em;
+    width: 560px;
+}
+
+.section-title, .nav-header__brand {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+.plan-title {
+    color: rgb(255, 255, 255);
+    background-color: rgba(112, 112, 112, 0.856);
+    padding: .5em 0 .5em 0;
+    text-align: center;
+}
+
+.plan--heading {
+    background: whitesmoke;
+    border: 1px solid black;
+    padding: .25em;
+    border-radius: .5em;
+    text-align: center;
+    box-shadow: 2px 2px 1px 1px gray;
+}
+
+.featured {
+    box-shadow: 3px 3px 2px 2px violet;
+    border: 1px solid grey;
+}
+
+.featured_button{
+    border: solid 1px violet;
+    border-radius: .5em;
+}
+
+.plan {
+    background-color: rgba(200, 200, 200, 0.575);
+    display: inline-block;
+    padding: 1em;
+    margin: 1em .5em;
+    max-width: 230px;
+    vertical-align: middle;
+    text-align: center;
+    
+}
+.plan li {
+    margin: .5em 0;
+}
+.plan ul {
+    list-style: none;
+    text-align: left;
+}
+
+.plan  button {
+    margin: .5em 0;
+   
+}
+
+.plan__title {
+    background: whitesmoke;
+    padding: .5em;
+}
+
+
+.plan__price {
+    border-bottom: thin palevioletred solid;
+    padding-bottom: .25em;
+}
+
+.nav-header {
+    width:100%;
+    padding: 1em;
+    vertical-align: middle;   
+}
+
+.nav-header__brand {
+    text-decoration: none;
+    font-size: 24px;
+    
+    
+}
+
+.nav-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.nav-main {
+    display: inline-block;
+    text-align:center;
+    width: calc(100% - 100px);
+   
+}
+
+.nav-header__items {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.nav-header__item {
+    display: inline-block;
+    margin: 0 1em;
+    
+}
+
+.nav-header__item a {
+    text-decoration: none;
+    color: rgb(42, 42, 42);
+    font-size: 18px;
+    border-left: dimgray 1px solid;
+    padding-left: .25em;
+}
+
+.nav-header__item a:hover, .nav-header__item a:active {
+    font-size: 19px;
+    border-left: red solid 1px;
+    color: red;
+}
+
+.nav-header__item--cta a {
+    border: violet solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+p::first-letter {
+    color: red;
+    font-size: 24px;
+    font-style: italic;
+    padding: .25em;
+    padding-bottom: 0;
+    background: rgb(235, 235, 235);
+    border-radius: 20%;
+}
+
+
+
